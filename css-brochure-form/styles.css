@@ -1,0 +1,76 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+h2 {
+  color: rgb(236, 93, 87);
+  text-align: center;
+  flex-basis: 100%;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.col-full {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.col-full label {
+  flex-basis: 100%;
+  padding: 1rem 0 0.2rem 4.8rem;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.col-full input::placeholder {
+  text-indent: 0.4rem;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(177, 177, 177);
+}
+
+.col-full input {
+  width: 80%;
+  height: 2rem;
+  border: 1px solid rgb(171, 175, 174);
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.col-full select {
+  width: 80%;
+  height: 2rem;
+  border: 1px solid rgb(171, 175, 174);
+  border-radius: 4px;
+  margin: 0 auto;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-indent: 0.4rem;
+  background-color: rgb(243, 243, 243);
+}
+
+.button-submit {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 4.3rem 0.2rem 0;
+}
+
+button {
+  border: 1px solid rgb(236, 93, 87);
+  border-radius: 1rem;
+  background-color: rgb(236, 93, 87);
+  color: #ffff;
+  padding: 0.5rem 1rem;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
