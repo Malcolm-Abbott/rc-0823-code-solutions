@@ -7,7 +7,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - Why do we log things to the console?
 
 To ensure our code is working as intended at the current step we are on.
-This enables us to track our code more efficiently and identify & locate errors in our code quickly and efficiently.
+This enables us to track our code more efficiently as well as identify & locate errors in our code quickly and efficiently.
 
 - What is the purpose of events and event handling?
 
