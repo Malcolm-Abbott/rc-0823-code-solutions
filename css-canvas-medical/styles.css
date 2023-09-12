@@ -41,12 +41,98 @@ div.background-image-container {
   background-image: url('./images/hero.jpg');
   background-size: cover;
   width: 80%;
-  margin: 0 auto;
+  margin: 3rem auto;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 div.background-image-content-container {
   width: 60%;
-  border: 2px solid red;
   padding: 4em;
   color: #ffff;
+  position: relative;
+  z-index: 1;
+}
+
+div.background-image-content-container p {
+  line-height: 1.6;
+  font-family: Avenir, sans-serif;
+}
+
+.button-get-started-container {
+  padding-top: 1.25rem;
+}
+
+.get-started {
+  background-color: rgb(41, 68, 100);
+  border: 1px solid rgb(41, 68, 100);
+  border-radius: 0.25rem;
+  color: #ffff;
+  padding: 1rem 3rem;
+  font-family: Avenir, sans-serif;
+  font-size: 1.25rem;
+}
+
+div.locations-container {
+  background-color: rgb(244, 245, 247);
+  color: rgb(110, 110, 110);
+}
+
+div.locations-content-container {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+div.clinicians-prefer {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+div.clinicians-prefer p {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 5rem;
+  font-family: Avenir, sans-serif;
+}
+
+div.locations-text-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+div.locations-text-wrapper .col-half {
+  text-align: center;
+  font-family: Avenir, sans-serif;
+}
+
+div.ready-container {
+  width: 80%;
+  color: rgb(110, 110, 110);
+  margin: 2rem auto;
+}
+
+div.button-flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+div.ready-container p {
+  font-family: Avenir, sans-serif;
 }
