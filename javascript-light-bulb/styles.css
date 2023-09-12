@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(254, 249, 241);
+}
+
+.bulb {
+  padding: 8rem;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.night {
+  background-color: rgb(37, 37, 37);
+}
+
+.night-background {
+  background-color: black;
+}
