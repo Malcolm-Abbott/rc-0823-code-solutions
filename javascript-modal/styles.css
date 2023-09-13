@@ -1,48 +1,49 @@
-.container {
-  border: 2px solid red;
-  height: 100vh;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
 }
 
 .open {
   background-color: rgb(74, 74, 233);
+  color: #ffff;
   border: 1px solid rgb(74, 74, 233);
   border-radius: 0.25rem;
-  color: #ffff;
-  font-family: Avenir, sans-serif;
-  font-size: 1.5rem;
   padding: 0.5rem 2rem;
-  box-shadow: 0 3px 3px darkgrey;
+  font-size: 1.5rem;
+  box-shadow: 0 3px 3px 0 darkgrey;
+  cursor: pointer;
 }
 
 .modal-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid green;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-content-container {
-  border: 2px solid red;
-  padding: 1rem;
+  border: 1px solid #ffff;
+  background-color: #ffff;
+  padding: 3rem 1rem;
+  border-radius: 0.3rem;
 }
 
-.modal-text {
-  display: flex;
-  justify-content: center;
-  font-family: Avenir, sans-serif;
+.modal-text-wrapper h2 {
   text-shadow: 1px 1px 1px darkgrey;
-  margin: 3rem 1rem;
+  font-size: 2rem;
 }
 
-.no-wrapper {
+.modal-button-wrapper {
   display: flex;
   justify-content: center;
-  margin: 2rem;
 }
 
 .no {
@@ -50,6 +51,12 @@
   border: 1px solid rgb(235, 93, 93);
   border-radius: 0.25rem;
   color: #ffff;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding: 0.5rem 2rem;
+  box-shadow: 0 2px 1px 0 darkgrey;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
