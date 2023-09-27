@@ -11,4 +11,4 @@ class Shape {
 }
 
 const iShape = new Shape(10 * 10, 10 * 4);
-console.log('iShape.describe()', iShape.describe());
+console.log('iShape.describe():', iShape.describe());
