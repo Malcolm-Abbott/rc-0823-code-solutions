@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.current {
+  border-bottom: 3px solid black;
+}
+
+.go {
+  color: rgb(26, 205, 27);
+}
+
+.stop {
+  color: red;
+  border-bottom: 3px solid red;
+}
